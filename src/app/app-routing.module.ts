@@ -15,6 +15,10 @@ export const AppRoutes: Routes = [
         path: 'home',
         loadChildren: './ui-modules/home/home.module#HomeModule'
       },
+      {
+        path: 'projects',
+        loadChildren: './ui-modules/projects/projects.module#ProjectsModule'
+      },
     ]
   }
 
